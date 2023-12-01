@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class WeaponBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    protected Vector3 direction;
+    public float destroyAfterSeconds;
+    // Start is called before the first frame update
+    protected virtual void Start()
     {
-        
+        Destroy(gameObject, destroyAfterSeconds);
+    }
+    
+    public void DirectionChecker(Vector3 dir)
+    {
+        direction = dir;
     }
 }

@@ -167,10 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edff2181da6a394cb571711b1859dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 7116260842755915740, guid: 1b1a91319c34717458422863756a859d, type: 3}
   damage: 0
-  speed: 0
-  cooldownDuration: 0
+  speed: 10
+  cooldownDuration: 2
   pierce: 0
 --- !u!1 &519420028
 GameObject:

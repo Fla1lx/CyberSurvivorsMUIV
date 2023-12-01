@@ -279,6 +279,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1273256262}
   offset: {x: 0, y: 0, z: -10}
+--- !u!1 &963504434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963504435}
+  - component: {fileID: 963504436}
+  m_Layer: 0
+  m_Name: GarlicController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963504435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963504434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1273256262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963504436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963504434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8296c1f3661b54fa121684a064faa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9196753476629619670, guid: b532325cc5089be439d0fac48aece7ed, type: 3}
+  damage: 0
+  speed: 0
+  cooldownDuration: 3
+  pierce: 0
 --- !u!1 &1273256257
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +366,7 @@ MonoBehaviour:
   lastHorizontalVector: 0
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
+  lastMovedVector: {x: 0, y: 0}
 --- !u!61 &1273256259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -455,6 +505,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 292942452}
+  - {fileID: 963504435}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1273256263

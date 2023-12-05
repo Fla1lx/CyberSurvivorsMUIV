@@ -14,7 +14,7 @@ public class GarlicController : WeaponController
     {
         base.Attack();
 
-        GameObject spawnedGarlic = Instantiate(prefab);
+        GameObject spawnedGarlic = Instantiate(weaponData.prefab);
         spawnedGarlic.transform.position = transform.position;
         spawnedGarlic.transform.parent = transform;
     }

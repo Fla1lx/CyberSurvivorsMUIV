@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponBehavior : MonoBehaviour
+public class ProjectileWeaponBehavior : MonoBehaviour
 {
+
+    public WeaponScriptableObject weaponData;
 
     protected Vector3 direction;
     public float destroyAfterSeconds;
@@ -23,34 +25,34 @@ public class WeaponBehavior : MonoBehaviour
         Vector3 scale = transform.localScale;
         Vector3 rotation = transform.rotation.eulerAngles;
 
-        if(dirx < 0 && diry == 0) // Влево
+        if(dirx < 0 && diry == 0) // пїЅпїЅпїЅпїЅпїЅ
         {
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;
         }
-        else if (dirx == 0 && diry < 0) //Вниз
+        else if (dirx == 0 && diry < 0) //пїЅпїЅпїЅпїЅ
         {
             scale.y = scale.y * -1;
         }
-        else if (dirx == 0 && diry > 0) // Верх
+        else if (dirx == 0 && diry > 0) // пїЅпїЅпїЅпїЅ
         {
             scale.x = scale.x * -1;
         }
-        else if (dir.x > 0 && dir.y > 0) // Вправо Верх
+        else if (dir.x > 0 && dir.y > 0) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         {
             rotation.z = 0f;
         }
-        else if (dir.x > 0 && dir.y < 0) // Вправо Вниз
+        else if (dir.x > 0 && dir.y < 0) // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         {
             rotation.z = -90f;
         }
-        else if (dir.x < 0 && dir.y > 0) // Влево Верх
+        else if (dir.x < 0 && dir.y > 0) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         {
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;
             rotation.z = -90f;
         }
-        else if (dir.x < 0 && dir.y < 0) // Влево Вниз
+        else if (dir.x < 0 && dir.y < 0) // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         {
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;

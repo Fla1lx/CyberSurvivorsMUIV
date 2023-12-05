@@ -185,11 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edff2181da6a394cb571711b1859dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7116260842755915740, guid: 1b1a91319c34717458422863756a859d, type: 3}
-  damage: 0
-  speed: 10
-  cooldownDuration: 2
-  pierce: 0
+  weaponData: {fileID: 11400000, guid: eff9683fb75680a43b470e8c96ffd6a9, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,11 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8296c1f3661b54fa121684a064faa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 9196753476629619670, guid: b532325cc5089be439d0fac48aece7ed, type: 3}
-  damage: 0
-  speed: 0
-  cooldownDuration: 3
-  pierce: 0
+  weaponData: {fileID: 11400000, guid: c0d8f5835225d514e83e74301a737a77, type: 2}
 --- !u!1 &1273256257
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +420,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 2.08}
+  m_Size: {x: 0.75, y: 1.5}
   m_EdgeRadius: 0
 --- !u!50 &1273256260
 Rigidbody2D:
@@ -724,6 +716,18 @@ PrefabInstance:
     - target: {fileID: 8091387528674807814, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337185964954280210, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337185964954280210, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337185964954280210, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 5285386484205190668}
   - component: {fileID: 2020285859115311650}
   - component: {fileID: 8337185964954280210}
+  - component: {fileID: -1634039057692302962}
+  - component: {fileID: -6237071861811793232}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,3 +154,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 1.125}
   m_EdgeRadius: 0
+--- !u!114 &-1634039057692302962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8091387528674807814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970975e2a79151f41874479836453b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 244592a8a79d3734c8d66b02b512440c, type: 2}
+--- !u!114 &-6237071861811793232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8091387528674807814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828789337872a5f4b912b735ad16b524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 244592a8a79d3734c8d66b02b512440c, type: 2}

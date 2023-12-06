@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6154883063487561918}
   - component: {fileID: 5211503342860746749}
   - component: {fileID: 4169857896627573599}
-  - component: {fileID: -3035998535971584895}
+  - component: {fileID: 2400899614643226179}
   m_Layer: 0
   m_Name: Kunai weapon
   m_TagString: Untagged
@@ -149,7 +149,7 @@ PolygonCollider2D:
       - {x: 0.1268382, y: -0.41053915}
       - {x: 0.00061273575, y: 0.42830887}
   m_UseDelaunayMesh: 0
---- !u!50 &-3035998535971584895
+--- !u!50 &2400899614643226179
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -175,4 +175,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0

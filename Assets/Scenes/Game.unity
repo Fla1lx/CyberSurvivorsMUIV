@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 1273256258}
   - component: {fileID: 1273256264}
   - component: {fileID: 1273256263}
+  - component: {fileID: 1273256265}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -359,6 +360,7 @@ MonoBehaviour:
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
+  characterData: {fileID: 11400000, guid: 0a857ad3bd061ed43a938f46b4a19adb, type: 2}
 --- !u!61 &1273256259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -533,6 +535,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba093673b0309a41b457e1e335d735e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1273256265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273256257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48beca24951e8b468da833661901497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 0a857ad3bd061ed43a938f46b4a19adb, type: 2}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  levelRanges:
+  - startLevel: 1
+    endLevel: 3
+    experienceCapIncrease: 100
+  - startLevel: 4
+    endLevel: 5
+    experienceCapIncrease: 200
 --- !u!1001 &1274917222
 PrefabInstance:
   m_ObjectHideFlags: 0

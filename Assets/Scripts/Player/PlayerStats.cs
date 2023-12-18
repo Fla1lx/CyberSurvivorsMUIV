@@ -79,5 +79,45 @@ public class PlayerStats : MonoBehaviour
             experienceCap += experienceCapIncrease;
         }
     }
+
+    public void TakeDamage(float dmg)
+    {
+        currentHealth -= dmg;
+        if (currentHealth <= 0)
+        {
+            Kill();
+        }
+
+    }
+
+    public void Kill()
+    {
+        Debug.Log("PLAYER IS DEAD");
+    }
+    
+    public void RestoreHealth(float amount)
+    {
+        if (currentHealth < characterData.MaxHealth)
+        {
+            currentHealth += amount;
+
+            if(currentHealth > characterData.MaxHealth)
+            {
+                currentHealth = characterData.MaxHealth;
+            }
+        }
+        
+    
+                
+                
+                
+    }
+
+
+
+
+
+
+
 }
 

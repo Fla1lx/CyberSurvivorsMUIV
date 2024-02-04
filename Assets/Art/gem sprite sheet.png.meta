@@ -1,0 +1,5706 @@
+fileFormatVersion: 2
+guid: f6264a26b8c769840bf85c02f05a70bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gem sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05482ea99f6535f4abc7e22130afbd5a
+      internalID: -1563616352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 676
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4081b93fcc54474089ae81d28e3c852
+      internalID: -344980094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 684
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d195de204a55545b64fed7401f5fa7
+      internalID: -1031865656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 684
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e459cab7765bd04abe252b3ba1f0693
+      internalID: 177235992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 652
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bc8361adc698b4195eb67acfc65349
+      internalID: -473696392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 656
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8459589c3b57a04aae930bdf5c0a068
+      internalID: 1445663648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56ae17ea99a88d49b20c2b9feab7d57
+      internalID: 768773246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 656
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e7575aa381ff49931aeaecc6fa311
+      internalID: -534373076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d149bc3a69be35146ab09ec53fe0fc1a
+      internalID: 815300786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d629cb9b730c2a640968574b94ac8953
+      internalID: 1552203127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da90c806bbd282444a71c37a64e0342d
+      internalID: 667732816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eedd77f5426b7043978cfb89be436e8
+      internalID: -1813076661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee669f165370a3488de33cd34a8821d
+      internalID: -1008608771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acecd396cc170f24f9b07d1058f63779
+      internalID: -1663634288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29470cd75bafb214480df9fd43c66f89
+      internalID: 1251564511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 652
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe1a1f39c426b142890487aa2324b8a
+      internalID: 2033022265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 652
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beeceefd2dbf704dbf088a9d447208b
+      internalID: 1839328741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 652
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdbbc77e52d34143ab84a94165463a0
+      internalID: -2053514887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 664
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8fb583c3511ab45bedfb89e0c26a3d
+      internalID: -995076559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd0e96c5dd85e46b781be2a0f25a72
+      internalID: -1358716953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 668
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f43ee3f61c8f845a1cb3097e11c707
+      internalID: 1782642283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 652
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7d47dcf9b70c3428ae2827adce02b4
+      internalID: -435035643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 656
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379177440958baf4f866438331291569
+      internalID: -1353988841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e186944388d4439a7ebc234141d0a
+      internalID: 2141376399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 612
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd1969c0d0938348ab724ea086a5186
+      internalID: 616543269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 620
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f8d80e033988647b8b5de32a4377db
+      internalID: -715218532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 620
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4179adc836794f24b89b90f0169f332e
+      internalID: 1269354001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 588
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c9c1e3dd0f11547b31bdcb21b2cb49
+      internalID: 55475630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0180bdcaba521f4dacc07a3c5aec43b
+      internalID: -98939724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5607ef4f6933c4486db0ce02e40061
+      internalID: 1269723169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929dd0a9051f846439e99c24c10e37fd
+      internalID: 850921462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1582044b58d047c4f842144465344eae
+      internalID: -1801391203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc8f1e5f9c2b6d4f8bb23d7bddb814c
+      internalID: -591047809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 584
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acf7b087ee4bb9478756e81d465a682
+      internalID: -943364360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd9629d829dd14998ed4d7b4a88887
+      internalID: 759388350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab2e5f841048544099079a968203469
+      internalID: 832968339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee7699c6ec7ad04a8d21c9859538f08
+      internalID: 759554017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46498c376c72bac4eb21121e9f22fb70
+      internalID: -1544535811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 588
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748300f38d609044692cb451037ce4f7
+      internalID: 3667597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 588
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5e1b283fca2714aa9c610c8d557424
+      internalID: 1041353904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 588
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaf5a2b41d7fbb46be07d780b971b29
+      internalID: -1514792132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 600
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c87a2389bb20043aa375c424af627d
+      internalID: 1131956506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 600
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2085e06a05c93ce4387461ddc56ee16b
+      internalID: -1818320751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 604
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd38bd97071ec294abb448068145d07e
+      internalID: 1856899931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 588
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c63975535236e488a477147c04e631
+      internalID: -459538455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4713523cf06bc8c41be8228dc6c66f1a
+      internalID: -1978363862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b226831045ef4fb6501c58920c102
+      internalID: 1248859792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 548
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30730f833804dcd41897413837f8047b
+      internalID: 1265935778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e5e1415587ce478714581294aed82
+      internalID: 1353561122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_49
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b520bcf4228cb4da7a24482a855059
+      internalID: -417886113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 524
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacb7002270a3c4786d2e69163d3b21
+      internalID: 1504906740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75a8b3507e5b8c4ea56305c8ed8b174
+      internalID: -1820515886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_52
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc5b449c26be14c8a6f8f0172eec16
+      internalID: -1575964019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1be73312442d54ebe18dea9188af02
+      internalID: -63272488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_54
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941b6885f615b8b46871cf9a998b536a
+      internalID: 239111325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_55
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61848abb383464044892a5e18f86001f
+      internalID: 1372470689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_56
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e08899b275860499ed1a34c46c9fc5
+      internalID: 197662148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_57
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9dbe3b1ebe04a46a9390dc73cfa7df
+      internalID: 105152844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_58
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e6193fe7fd8d45bb412ebaefc6044
+      internalID: -419734524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_59
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907961fb53fd4ca43bd30ad085c50e72
+      internalID: -906892529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_60
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba71d7a91bbfcce4ba320693b2d2ec54
+      internalID: 1946682978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_61
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 524
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16341a00d3ffb8d4393ab793a5fe18d8
+      internalID: -1563847811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_62
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 524
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5133f68c333444cbe1823c758ad88b
+      internalID: 2058717942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_63
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 524
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6be8ff4c4decdf44af7dc95a1a9176c
+      internalID: 1345010512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 536
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74844c57ea77a648a58cdb82660f327
+      internalID: -398472108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 536
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2d91c8af165634bb0e391de3bb4052
+      internalID: 1325725336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 540
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2e1b442b83db4b8c603f98e6082dc
+      internalID: -814835551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 524
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1861b43d1d2e725479c05c2eccae655c
+      internalID: 1488554035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f231395bb73701a4482de09f13e3509a
+      internalID: -1512091587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_69
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abc9a2d3c6ed3849969833a7b5a798b
+      internalID: 338301172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 484
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162d5f18440cbc4eb04ee3139a8d2f9
+      internalID: -698115341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5c8cf4b3c5d448ad04ebdc872dad6
+      internalID: 1386552612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac05776bbe28944ca45cc40fd728f19
+      internalID: 71968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 460
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c306b3bcb96fdc24399e29a745099954
+      internalID: 1849605388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f9b78dd9063a4691f3c9499ac5b8a
+      internalID: 479337859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_75
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f822ae342bdc1a41b96fee976a83dca
+      internalID: 877260060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_76
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345c9f5308258d9488efaa8bb5155f16
+      internalID: -566320308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_77
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd38feee6c457b469b907dbc4d61fe5
+      internalID: -1484772919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_78
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a90ca49589c054eba5c71e5a704b17
+      internalID: 986093079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_79
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 456
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3da41029731d4428bdf0f554f2bf83
+      internalID: 576608345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_80
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e0b2121c33f2f46b498494f2a4aa7c
+      internalID: -579050876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_81
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e582a69e7320c45b1a31534a1826d2
+      internalID: -553589998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_82
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7bfbe9c64567a4b94513860b208bf1
+      internalID: -129073778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_83
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 460
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ff5847e5e852644ad32ab5161d50a6
+      internalID: -938607703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_84
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 460
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b434e6dba7ee9449b275a3a9c95c392
+      internalID: -1935988622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_85
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 460
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c0f4f1f9f7782498d288a7a0d280d9
+      internalID: -1419315698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_86
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 460
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e61212bb543544fa367d1a0e58de4b
+      internalID: 576373635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 472
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e9f3fbb4f68c4cbf7098705c17da8
+      internalID: -120431419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_88
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 472
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641d9e6bdaab7784b9b45afd352c6cf9
+      internalID: 1074553215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_89
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 476
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cb818b2b5a236448a6231764aa7112
+      internalID: 1064775087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 460
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862a999551e3c7044ad6ae1f5505b2a2
+      internalID: 700206892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e39150398370e42a073d3e9d7a6557
+      internalID: 1788302438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_92
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ba42025800fee408bd15f777468cb0
+      internalID: -66183854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 420
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aecce7709436a4a8939a1e1801d859
+      internalID: 1937050002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 428
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c4e04409fd8b4282814feea343016
+      internalID: 1385620551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_95
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 428
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7719582130b284aab58a5a545a73c5
+      internalID: 1528846380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 396
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f21e47096fa53d4caa4b55317e67f1b
+      internalID: -425030352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 400
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654d580f122f8d34a88972dd860cc09d
+      internalID: 443554509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_98
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c80879034a2239418339764d8450501
+      internalID: -1636295815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_99
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b3c923b8d5d654ab71e52d5541afa6
+      internalID: -1398983913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_100
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db99bd0392b2ed48b0ae6ed58029be2
+      internalID: 181059365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_101
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c743ec151b82474caee50cabd60bbf6
+      internalID: 1225029910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_102
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 392
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7eeec76db355d49a57584edd41609b
+      internalID: -1969427546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_103
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3321c2f3ad128d349a44ab2c4d32b4be
+      internalID: -655146092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_104
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8871b6c4b556e04f94da8b31227a52b
+      internalID: 581521985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_105
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5a141aab5fb4a469d0e02e188cee37
+      internalID: 1367777993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_106
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 396
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6879b0a5dc1ce554fa2b5b4a243c3672
+      internalID: -701445590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_107
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 396
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a19df449f1b8a42b44de3c82992104
+      internalID: -2124831867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_108
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 396
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e9c2686cf888459ed65e4f37ecec0
+      internalID: 1343950004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_109
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 396
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889839f5e69c3454d83042b8485c668b
+      internalID: -1411682205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 408
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e73cff805c229f4799e0e409ca73e71
+      internalID: 2060832500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_111
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 408
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5acd93ac8fa2743b817dd48c648e5b
+      internalID: 1375499090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_112
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 412
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f94039b915c1c74fa4510ed57120a0c
+      internalID: 1544017738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 396
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b6937af4bd08f45a045f070c295731
+      internalID: -428864453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c7df608fce74a4bbf214fe34d5e9f0
+      internalID: -1442314610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_115
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d768d373f1e6b4c9c88d274ae7b588
+      internalID: -1197901727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 356
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10bc965e01c6ba46953e7f63a04b490
+      internalID: -342961185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_117
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 364
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5905aa57fcb841a4bb834ad3267769ee
+      internalID: 1471677243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_118
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 364
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a492006d4a06438fad733910b2460
+      internalID: 28918536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 332
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f9b0dcc8cf0d14bb43a89183fa92e0
+      internalID: 980988642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_120
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b633d73c6d783d499f069043a904462
+      internalID: 117221983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_121
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc0a5cfe106f3a409fe1bfaf1e79648
+      internalID: -1297194875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a138574c3bd74883b62008942aa70
+      internalID: 355046563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_123
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dab867926db2934fa947ba1cb47e7ea
+      internalID: 660898661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_124
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae073627c90fe4d4798adc685b9df264
+      internalID: 287590152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_125
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60324da27237d434787ba0b5b06aedd4
+      internalID: -1098915039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_126
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56342eab23c9fde439802773d704d11d
+      internalID: 194298217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_127
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc57efa237a007a41a506c675bb1e0b6
+      internalID: 790757864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_128
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c53181c4771743aad0c0f5f1baedd
+      internalID: -1593433662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_129
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 332
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454f6440019b1e49ba2e3fa38e2b068
+      internalID: -1550362599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_130
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 332
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b146606df80d50847acd74f3f3af8f11
+      internalID: -587703564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_131
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 332
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e4dffd4bed8894c94b1bb9e19cda19
+      internalID: -1671055102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_132
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 332
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa16eaf5fbe1744a7dbe8c360c3d79
+      internalID: -1189558637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 344
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739ba2c07ed5ed04f8d9f9c787d61939
+      internalID: -1948931473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_134
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 344
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d46c47085536bc48a4f26ba8c69bf36
+      internalID: 1160546790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_135
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 348
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe75944e088194d899525cb6904a06
+      internalID: 1893832250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_136
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 332
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab235a57a89de041bac1addffbecbaf
+      internalID: -125138147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_137
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aaf3d7b8b187d44a6785d04c00a3b0
+      internalID: 1444872321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_138
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53742e7f672226b478cbfbf2eb16fed6
+      internalID: 204487506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_139
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 292
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e6c6ca2c62664683dc54223d0dae8
+      internalID: 639074665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_140
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb008427c222354f93e1b44b799b6ff
+      internalID: 1396502467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_141
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9586307815ccd294986a95d0601bdc47
+      internalID: -1790336273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_142
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 268
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2faa79cc5ceb224cbef4bed03c99c2b
+      internalID: 984137951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654cddabbb38f114f8201b18e774c59f
+      internalID: 997392296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_144
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4664d2846333f7347a4c912c4475bfab
+      internalID: 992072125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad64bae7c88fa8498eaee21d3f67049
+      internalID: -668673660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_146
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c2eed9e451c7a4da65a840335f06a7
+      internalID: 648435078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_147
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1079090dc67f8664b81888648d150fc6
+      internalID: -87326218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_148
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79515d4768c0b0439bacba87af1c289
+      internalID: -1660831988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_149
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afedfcce662c1464d9e784fe1809d77a
+      internalID: -1386573948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_150
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a2ce450f7183940bec3f05132f7bb0
+      internalID: 997647710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_151
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a3c7cc5d8b70c4e9191f158e1d751c
+      internalID: 1509027042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_152
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91edb90c9107e1c49b98d0d85b8e6b31
+      internalID: 872048548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_153
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 268
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898fb9bbdb6101345b267d0da477614b
+      internalID: -496266578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_154
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 268
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4473454b086054d86f92d50a0ab38e
+      internalID: 1202765571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_155
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 268
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142cbecd62158ac428028efedd449e0a
+      internalID: 672962132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_156
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce7f138850c9de4994210d103411f22
+      internalID: -1218289666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_157
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 280
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ec012a30d3804290b8b99dce5e195
+      internalID: -1376462775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_158
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 284
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a838bd05e31ced741b59b14b6b10db26
+      internalID: -1327173457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_159
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 268
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d92cfadf3a1d084a86a94b5ead778fe
+      internalID: -1566352875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_160
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2b2ac341b753f43b4eb5a029284249
+      internalID: 1189264453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_161
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2bde3facf3904489f30b485546482
+      internalID: -952182715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 228
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efe710dd9b68d247a6cc1ef9f30a46c
+      internalID: -220791085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 236
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabc47cee4f19ed4cb20a64c4fc1b318
+      internalID: -317098161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_164
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 236
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bea60516326004d81eb053ce1e688f
+      internalID: 67395778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_165
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 204
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681558a32dc4bd8479b791236e544cf4
+      internalID: 1132081369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_166
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897e33c850e742a4fb7b9e2b8362c6cd
+      internalID: 1138754902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_167
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c296238b0f1631458054c16a7458eb1
+      internalID: 592937515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_168
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f47ef855a567a49b9a292994da727e
+      internalID: 1883763226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_169
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd9c6ea11f2c3846ba9a50f5bbea290
+      internalID: 193523946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_170
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d3fc3bbdec9af438066b52f22cb4ca
+      internalID: -503171100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_171
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6e3e47a0c2d64fbf431a324990783
+      internalID: -1654898521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_172
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afa0376b1b79f949812c1f2ba685363
+      internalID: -1076698806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_173
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c62cce5c216f479d3404604bcc0b0
+      internalID: -572372175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_174
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0c720423534ec438374b6f03a2a3bb
+      internalID: -710477236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_175
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f620f50b309ec4b845f103106d26bb
+      internalID: 687768158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_176
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 204
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc63ae86b4ca54285ad52917b74343
+      internalID: 214539207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_177
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 204
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a10fb68dbdf8143a1ea73218135f3d
+      internalID: -2108886002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_178
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 204
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bd3ff90e55ad046b18a1f99f8f84a2
+      internalID: -1853479289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_179
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 216
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74793907fc22db548831134e1411831c
+      internalID: -212817763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_180
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da16c74e1f57c3f4bb6755aaf7f3023b
+      internalID: 871980152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_181
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81df2d6cb97ebb840bf1dcdecc4f9914
+      internalID: 351373895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_182
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7d1a281ff595a49baa50b71384779b
+      internalID: 1786379227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760ab770602439244885cd83192a3124
+      internalID: -10796056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_184
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03fa6cddd4d9d348bbc9981f69c9fa0
+      internalID: -1809052284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 164
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f303a3c9ced6b42a0d0a3c2efc550b
+      internalID: -1090809238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 172
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772f969ad47389d41a526c68c6835cfc
+      internalID: 1872421903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_187
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a77e9908052545acb551221f3b723
+      internalID: 647192122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_188
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 140
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ddbcbc6e8c8fd4a9f278da1e677e53
+      internalID: 820476615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0acbd1eef3afd4bb48625d12af9320
+      internalID: 1234607199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_190
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc355facaf3a6440bb8694c3769c91e
+      internalID: 733268459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_191
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec2a00050e2d14b8631dd29cdd278a
+      internalID: -719454364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_192
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5deacabcd6e54f90205907ea1de04
+      internalID: -83099234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_193
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55338d3e92534d646b5fa8f3bcaa956f
+      internalID: 714264477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_194
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974d9f4561baf8949a26a17f04281efa
+      internalID: 1673518438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_195
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2532a59e7d8185f4fb28072e59fcb279
+      internalID: 1792511803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_196
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0c1b0d74309584186cf05120f9c755
+      internalID: -2805124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_197
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7fa1ef49167c94b9e6f1678b802a33
+      internalID: -151645282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_198
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a58aa5586cf3a4ca420cf91f1fef6c
+      internalID: -537647324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_199
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 140
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad8288a0a126534982b50fd8400b5e2
+      internalID: 1523352022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_200
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 140
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c40e09dee6c6a145afc35e45473901b
+      internalID: 857312129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_201
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 140
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c3d9844beebf47bcd6b85e6f30496
+      internalID: 1357925019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_202
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1089bb7cc002b844f8ce29be798d4b78
+      internalID: -1549373939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_203
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebfca71af60f441a83250faee55d00
+      internalID: 636177913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_204
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87252d5dcc5b82449dcb79279d12ba2
+      internalID: 298009057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_205
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf7e6864275294b9bdd50ee013cd5c
+      internalID: -23007469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843dd11d0c67ed94eb4a1c25bdec7f9f
+      internalID: -735625051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_207
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e64ecf2c2b3ff4c9182a3ccb8a030c
+      internalID: 2114975956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_208
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb8e0a709272d04dad43d8f676b9f62
+      internalID: 1471015568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_209
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33807351116ed0846abae70f03926ce1
+      internalID: 127187448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_210
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e3a836c3b62544a293c474404ee9c
+      internalID: 1483464180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_211
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5643224d090b46343885e5d338dc8737
+      internalID: -2104178715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_212
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b083b1c90be934f8e443b740466652
+      internalID: -1542497719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_213
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d94ec211d7084896b4ecec78f15c0
+      internalID: 1370125520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_214
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a256489c5bce734aa5596796272eb0b
+      internalID: -2084269865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_215
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8aec1e0f5da084fa8d18c64f6ce993
+      internalID: 79091966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_216
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f3d64a05f02d4b94e85eb3edfd358
+      internalID: -1452315617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_217
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35ef80d3f6dbb648960db7edf39d298
+      internalID: 821157192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_218
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d4f74f02594ee45be68a1a3664487c
+      internalID: 877939223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_219
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976d5be58a7cdd44977bd0f3b1a3825
+      internalID: -19012060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_220
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9165ed73c4880841be67ee49f0b1e9c
+      internalID: -1142558562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_221
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 76
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a51893640e534cad5af7b9f7a8112
+      internalID: -1692848756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_222
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 76
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00a28aeb55239f4ab3c7fd2264bbdcb
+      internalID: 1229494226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_223
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 76
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d694144d232e9f943b84ee2ff1c0c71d
+      internalID: 18092867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_224
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 76
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b495bcd0398c640aea031c7f554b5b
+      internalID: 496137245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c31b6c625068a4ca7e96bbcf2faa23
+      internalID: -297422872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_226
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ff97a84316874f90508ac2320fe42
+      internalID: 1823655019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_227
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 92
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5870e3ec86cbf4148a19d8737541d3f3
+      internalID: -1454817330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_228
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa9b75185a6aa5469c65e48c97cc7cb
+      internalID: -384888102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_229
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033671df4fc434b4587729c25ffdeba8
+      internalID: 993528328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_230
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51b49ae1338a814792a9abcc848bd67
+      internalID: 110638529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_231
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bed7ea5d4f60104a9a3724f3024b2f8
+      internalID: -23398585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_232
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdefb06d635bb4e44b1930011532ef83
+      internalID: 235554047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_233
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a2108442299140b82a99bef095a6f
+      internalID: 265491287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_234
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 12
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d0e185f0b5dac499f54df43424140b
+      internalID: 1468618174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_235
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90aecb8cf7a3234dab890816bfa1150
+      internalID: 1789681545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_236
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61204fc0e3ed60142a472e3c71a7d1ab
+      internalID: -1208767475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_237
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f910ab7f8abe3342adb72772a05b2d9
+      internalID: 1666266556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_238
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b9e95a4d7c59e47b1325813fb8efff
+      internalID: -1136036437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_239
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32151363822001b4b8080931a7bb8fe5
+      internalID: -1614249230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_240
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 8
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d4eab6c9de3fc43839f3939b83a959
+      internalID: 427337152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_241
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479f899bb4f64ab438a1933125918db6
+      internalID: 1490158130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_242
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f0590a4ac191e46b13ce782dcaf2dd
+      internalID: -1777143239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_243
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e9eeecc9892a54394789c4a105ec35
+      internalID: 1358709649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_244
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 12
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc287df2bfab6aa468aaaf392e1a1afc
+      internalID: -336336796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_245
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 12
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04731636c29bcdc418ef3cdc24b98d06
+      internalID: -1858478309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_246
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 12
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf922ed2745b9d47b2f786a87977955
+      internalID: -469051603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_247
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 12
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c686ea7616b6bb418eafcf02b8624f6
+      internalID: -1688131910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_248
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02755fcc8dbca2c4da84daafbc0f7cd5
+      internalID: 1832702330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_249
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d334eb27982614cbc80dd75b7ff310
+      internalID: 894045145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_250
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf35e087e734d54abda141c400f7ce7
+      internalID: -2039798150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_251
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b546e6c1630fe448ad9362aa022df1
+      internalID: 560767726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gem sprite sheet_252
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2518a150af0815e448b2d24082e78fc7
+      internalID: -1425576404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gem sprite sheet_0: -1563616352
+      gem sprite sheet_1: -344980094
+      gem sprite sheet_10: 667732816
+      gem sprite sheet_100: 181059365
+      gem sprite sheet_101: 1225029910
+      gem sprite sheet_102: -1969427546
+      gem sprite sheet_103: -655146092
+      gem sprite sheet_104: 581521985
+      gem sprite sheet_105: 1367777993
+      gem sprite sheet_106: -701445590
+      gem sprite sheet_107: -2124831867
+      gem sprite sheet_108: 1343950004
+      gem sprite sheet_109: -1411682205
+      gem sprite sheet_11: -1813076661
+      gem sprite sheet_110: 2060832500
+      gem sprite sheet_111: 1375499090
+      gem sprite sheet_112: 1544017738
+      gem sprite sheet_113: -428864453
+      gem sprite sheet_114: -1442314610
+      gem sprite sheet_115: -1197901727
+      gem sprite sheet_116: -342961185
+      gem sprite sheet_117: 1471677243
+      gem sprite sheet_118: 28918536
+      gem sprite sheet_119: 980988642
+      gem sprite sheet_12: -1008608771
+      gem sprite sheet_120: 117221983
+      gem sprite sheet_121: -1297194875
+      gem sprite sheet_122: 355046563
+      gem sprite sheet_123: 660898661
+      gem sprite sheet_124: 287590152
+      gem sprite sheet_125: -1098915039
+      gem sprite sheet_126: 194298217
+      gem sprite sheet_127: 790757864
+      gem sprite sheet_128: -1593433662
+      gem sprite sheet_129: -1550362599
+      gem sprite sheet_13: -1663634288
+      gem sprite sheet_130: -587703564
+      gem sprite sheet_131: -1671055102
+      gem sprite sheet_132: -1189558637
+      gem sprite sheet_133: -1948931473
+      gem sprite sheet_134: 1160546790
+      gem sprite sheet_135: 1893832250
+      gem sprite sheet_136: -125138147
+      gem sprite sheet_137: 1444872321
+      gem sprite sheet_138: 204487506
+      gem sprite sheet_139: 639074665
+      gem sprite sheet_14: 1251564511
+      gem sprite sheet_140: 1396502467
+      gem sprite sheet_141: -1790336273
+      gem sprite sheet_142: 984137951
+      gem sprite sheet_143: 997392296
+      gem sprite sheet_144: 992072125
+      gem sprite sheet_145: -668673660
+      gem sprite sheet_146: 648435078
+      gem sprite sheet_147: -87326218
+      gem sprite sheet_148: -1660831988
+      gem sprite sheet_149: -1386573948
+      gem sprite sheet_15: 2033022265
+      gem sprite sheet_150: 997647710
+      gem sprite sheet_151: 1509027042
+      gem sprite sheet_152: 872048548
+      gem sprite sheet_153: -496266578
+      gem sprite sheet_154: 1202765571
+      gem sprite sheet_155: 672962132
+      gem sprite sheet_156: -1218289666
+      gem sprite sheet_157: -1376462775
+      gem sprite sheet_158: -1327173457
+      gem sprite sheet_159: -1566352875
+      gem sprite sheet_16: 1839328741
+      gem sprite sheet_160: 1189264453
+      gem sprite sheet_161: -952182715
+      gem sprite sheet_162: -220791085
+      gem sprite sheet_163: -317098161
+      gem sprite sheet_164: 67395778
+      gem sprite sheet_165: 1132081369
+      gem sprite sheet_166: 1138754902
+      gem sprite sheet_167: 592937515
+      gem sprite sheet_168: 1883763226
+      gem sprite sheet_169: 193523946
+      gem sprite sheet_17: -2053514887
+      gem sprite sheet_170: -503171100
+      gem sprite sheet_171: -1654898521
+      gem sprite sheet_172: -1076698806
+      gem sprite sheet_173: -572372175
+      gem sprite sheet_174: -710477236
+      gem sprite sheet_175: 687768158
+      gem sprite sheet_176: 214539207
+      gem sprite sheet_177: -2108886002
+      gem sprite sheet_178: -1853479289
+      gem sprite sheet_179: -212817763
+      gem sprite sheet_18: -995076559
+      gem sprite sheet_180: 871980152
+      gem sprite sheet_181: 351373895
+      gem sprite sheet_182: 1786379227
+      gem sprite sheet_183: -10796056
+      gem sprite sheet_184: -1809052284
+      gem sprite sheet_185: -1090809238
+      gem sprite sheet_186: 1872421903
+      gem sprite sheet_187: 647192122
+      gem sprite sheet_188: 820476615
+      gem sprite sheet_189: 1234607199
+      gem sprite sheet_19: -1358716953
+      gem sprite sheet_190: 733268459
+      gem sprite sheet_191: -719454364
+      gem sprite sheet_192: -83099234
+      gem sprite sheet_193: 714264477
+      gem sprite sheet_194: 1673518438
+      gem sprite sheet_195: 1792511803
+      gem sprite sheet_196: -2805124
+      gem sprite sheet_197: -151645282
+      gem sprite sheet_198: -537647324
+      gem sprite sheet_199: 1523352022
+      gem sprite sheet_2: -1031865656
+      gem sprite sheet_20: 1782642283
+      gem sprite sheet_200: 857312129
+      gem sprite sheet_201: 1357925019
+      gem sprite sheet_202: -1549373939
+      gem sprite sheet_203: 636177913
+      gem sprite sheet_204: 298009057
+      gem sprite sheet_205: -23007469
+      gem sprite sheet_206: -735625051
+      gem sprite sheet_207: 2114975956
+      gem sprite sheet_208: 1471015568
+      gem sprite sheet_209: 127187448
+      gem sprite sheet_21: -435035643
+      gem sprite sheet_210: 1483464180
+      gem sprite sheet_211: -2104178715
+      gem sprite sheet_212: -1542497719
+      gem sprite sheet_213: 1370125520
+      gem sprite sheet_214: -2084269865
+      gem sprite sheet_215: 79091966
+      gem sprite sheet_216: -1452315617
+      gem sprite sheet_217: 821157192
+      gem sprite sheet_218: 877939223
+      gem sprite sheet_219: -19012060
+      gem sprite sheet_22: -1353988841
+      gem sprite sheet_220: -1142558562
+      gem sprite sheet_221: -1692848756
+      gem sprite sheet_222: 1229494226
+      gem sprite sheet_223: 18092867
+      gem sprite sheet_224: 496137245
+      gem sprite sheet_225: -297422872
+      gem sprite sheet_226: 1823655019
+      gem sprite sheet_227: -1454817330
+      gem sprite sheet_228: -384888102
+      gem sprite sheet_229: 993528328
+      gem sprite sheet_23: 2141376399
+      gem sprite sheet_230: 110638529
+      gem sprite sheet_231: -23398585
+      gem sprite sheet_232: 235554047
+      gem sprite sheet_233: 265491287
+      gem sprite sheet_234: 1468618174
+      gem sprite sheet_235: 1789681545
+      gem sprite sheet_236: -1208767475
+      gem sprite sheet_237: 1666266556
+      gem sprite sheet_238: -1136036437
+      gem sprite sheet_239: -1614249230
+      gem sprite sheet_24: 616543269
+      gem sprite sheet_240: 427337152
+      gem sprite sheet_241: 1490158130
+      gem sprite sheet_242: -1777143239
+      gem sprite sheet_243: 1358709649
+      gem sprite sheet_244: -336336796
+      gem sprite sheet_245: -1858478309
+      gem sprite sheet_246: -469051603
+      gem sprite sheet_247: -1688131910
+      gem sprite sheet_248: 1832702330
+      gem sprite sheet_249: 894045145
+      gem sprite sheet_25: -715218532
+      gem sprite sheet_250: -2039798150
+      gem sprite sheet_251: 560767726
+      gem sprite sheet_252: -1425576404
+      gem sprite sheet_26: 1269354001
+      gem sprite sheet_27: 55475630
+      gem sprite sheet_28: -98939724
+      gem sprite sheet_29: 1269723169
+      gem sprite sheet_3: 177235992
+      gem sprite sheet_30: 850921462
+      gem sprite sheet_31: -1801391203
+      gem sprite sheet_32: -591047809
+      gem sprite sheet_33: -943364360
+      gem sprite sheet_34: 759388350
+      gem sprite sheet_35: 832968339
+      gem sprite sheet_36: 759554017
+      gem sprite sheet_37: -1544535811
+      gem sprite sheet_38: 3667597
+      gem sprite sheet_39: 1041353904
+      gem sprite sheet_4: -473696392
+      gem sprite sheet_40: -1514792132
+      gem sprite sheet_41: 1131956506
+      gem sprite sheet_42: -1818320751
+      gem sprite sheet_43: 1856899931
+      gem sprite sheet_44: -459538455
+      gem sprite sheet_45: -1978363862
+      gem sprite sheet_46: 1248859792
+      gem sprite sheet_47: 1265935778
+      gem sprite sheet_48: 1353561122
+      gem sprite sheet_49: -417886113
+      gem sprite sheet_5: 1445663648
+      gem sprite sheet_50: 1504906740
+      gem sprite sheet_51: -1820515886
+      gem sprite sheet_52: -1575964019
+      gem sprite sheet_53: -63272488
+      gem sprite sheet_54: 239111325
+      gem sprite sheet_55: 1372470689
+      gem sprite sheet_56: 197662148
+      gem sprite sheet_57: 105152844
+      gem sprite sheet_58: -419734524
+      gem sprite sheet_59: -906892529
+      gem sprite sheet_6: 768773246
+      gem sprite sheet_60: 1946682978
+      gem sprite sheet_61: -1563847811
+      gem sprite sheet_62: 2058717942
+      gem sprite sheet_63: 1345010512
+      gem sprite sheet_64: -398472108
+      gem sprite sheet_65: 1325725336
+      gem sprite sheet_66: -814835551
+      gem sprite sheet_67: 1488554035
+      gem sprite sheet_68: -1512091587
+      gem sprite sheet_69: 338301172
+      gem sprite sheet_7: -534373076
+      gem sprite sheet_70: -698115341
+      gem sprite sheet_71: 1386552612
+      gem sprite sheet_72: 71968
+      gem sprite sheet_73: 1849605388
+      gem sprite sheet_74: 479337859
+      gem sprite sheet_75: 877260060
+      gem sprite sheet_76: -566320308
+      gem sprite sheet_77: -1484772919
+      gem sprite sheet_78: 986093079
+      gem sprite sheet_79: 576608345
+      gem sprite sheet_8: 815300786
+      gem sprite sheet_80: -579050876
+      gem sprite sheet_81: -553589998
+      gem sprite sheet_82: -129073778
+      gem sprite sheet_83: -938607703
+      gem sprite sheet_84: -1935988622
+      gem sprite sheet_85: -1419315698
+      gem sprite sheet_86: 576373635
+      gem sprite sheet_87: -120431419
+      gem sprite sheet_88: 1074553215
+      gem sprite sheet_89: 1064775087
+      gem sprite sheet_9: 1552203127
+      gem sprite sheet_90: 700206892
+      gem sprite sheet_91: 1788302438
+      gem sprite sheet_92: -66183854
+      gem sprite sheet_93: 1937050002
+      gem sprite sheet_94: 1385620551
+      gem sprite sheet_95: 1528846380
+      gem sprite sheet_96: -425030352
+      gem sprite sheet_97: 443554509
+      gem sprite sheet_98: -1636295815
+      gem sprite sheet_99: -1398983913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

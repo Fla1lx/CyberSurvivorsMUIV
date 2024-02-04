@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 1273256258}
   - component: {fileID: 1273256264}
   - component: {fileID: 1273256263}
+  - component: {fileID: 1273256265}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -533,6 +534,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba093673b0309a41b457e1e335d735e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1273256265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273256257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8acbed280ac5957439bd7b198b5b175e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: b0fc4f2968c7ce44c8814b03fb648bdc, type: 2}
+  experience: 0
+  level: 1
+  experienceCap: 100
+  experienceCapIncrease: 100
 --- !u!1001 &1274917222
 PrefabInstance:
   m_ObjectHideFlags: 0

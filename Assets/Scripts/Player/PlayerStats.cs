@@ -45,4 +45,19 @@ public class PlayerStats : MonoBehaviour
             experienceCap += experienceCapIncrease;
         }
     }
+
+    public void TakeDamage(float dmg)
+    {
+        currentHealth -= dmg;
+        
+        if (currentHealth <= 0)
+        {
+            Kill();
+        }
+    }
+    
+    public void Kill()
+    {
+        Debug.Log("ÈÃÐÎÊ ÓÌÅÐ");
+    }
 }

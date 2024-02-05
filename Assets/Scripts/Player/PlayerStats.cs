@@ -58,6 +58,6 @@ public class PlayerStats : MonoBehaviour
     
     public void Kill()
     {
-        Debug.Log("»√–Œ  ”Ã≈–");
+        Debug.Log("Player Killed");
     }
 }

@@ -78,6 +78,19 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+
+    public void RestoreHealth(float amount)
+    {
+        if(currentHealth < characterData.MaxHealth)
+        {
+            currentHealth += amount;
+            if(currentHealth > characterData.MaxHealth)
+            {
+                currentHealth = characterData.MaxHealth;
+            }
+        }
+        
+    }
     
     public void Kill()
     {

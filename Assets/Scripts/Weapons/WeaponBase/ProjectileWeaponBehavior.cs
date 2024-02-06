@@ -89,6 +89,7 @@ public class ProjectileWeaponBehavior : MonoBehaviour
         {
             if (col.gameObject.TryGetComponent(out BreakableProps breakable))
             {
+                Debug.Log("TRUE");
                 breakable.TakeDamage(currentDamage);
                 ReducePierce();
             }

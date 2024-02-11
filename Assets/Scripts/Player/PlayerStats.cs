@@ -45,6 +45,8 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
+
+        Recover();
     }
     public void IncreaseExperience(int amount)
     {
@@ -95,5 +97,19 @@ public class PlayerStats : MonoBehaviour
     public void Kill()
     {
         Debug.Log("Player Killed");
+    }
+
+    void Recover()
+    {
+        if(currentHealth < characterData.MaxHealth)
+        {
+            currentHealth += currentRecovery * Time.deltaTime;
+        }
+
+        if(currentHealth > characterData.MaxHealth)
+        {
+            currentHealth = characterData.MaxHealth;
+        }
+
     }
 }

@@ -12,6 +12,8 @@ public class PlayerStats : MonoBehaviour
     public float currentMight;
     public float currentProjectileSpeed;
 
+    public float currentMagnet;
+
 
     [Header("Experience/Level")]
     public int experience = 0;
@@ -32,6 +34,7 @@ public class PlayerStats : MonoBehaviour
         currentMoveSpeed = characterData.MoveSpeed;
         currentMight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
+        currentMagnet = characterData.Magnet;
     }
 
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public CharacterScriptableObject characterData;
+    CharacterScriptableObject characterData;
 
     public float currentHealth;
     public float currentRecovery;
@@ -13,6 +13,8 @@ public class PlayerStats : MonoBehaviour
     public float currentProjectileSpeed;
 
     public float currentMagnet;
+
+    public List<GameObject> spawnedWeapons;
 
 
     [Header("Experience/Level")]
@@ -29,12 +31,17 @@ public class PlayerStats : MonoBehaviour
 
     void Awake()
     {
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
+        
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;
         currentMoveSpeed = characterData.MoveSpeed;
         currentMight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
         currentMagnet = characterData.Magnet;
+
+        SpawnWeapon(characterData.StartingWeapon);
     }
 
 
@@ -113,6 +120,14 @@ public class PlayerStats : MonoBehaviour
         {
             currentHealth = characterData.MaxHealth;
         }
+
+    }
+
+    public void SpawnWeapon(GameObject weapon)
+    {
+        GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform);
+        spawnedWeapons.Add(spawnedWeapon);
 
     }
 }

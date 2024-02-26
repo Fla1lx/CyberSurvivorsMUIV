@@ -282,11 +282,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion
       objectReference: {fileID: 0}
+    - target: {fileID: 6207905903364663458, guid: 149249a83c5a1f34796d8df00e7cfbf4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 149249a83c5a1f34796d8df00e7cfbf4, type: 3}
+--- !u!1 &1162286825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162286827}
+  - component: {fileID: 1162286826}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1162286826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162286825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4fc20053b944e45beb47a21bbc8e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - waveName: Wave 1
+    enemyGroups:
+    - enemyName: NPC
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefab: {fileID: 1351171182}
+    - enemyName: RED NPC
+      enemyCount: 2
+      spawnCount: 0
+      enemyPrefab: {fileID: 8091387528674807814, guid: 88ef78f4bebb90740ab09c10b814c174, type: 3}
+    waveQuota: 5
+    spawnInterval: 0
+    spawnCount: 0
+  currentWaveCount: 0
+--- !u!4 &1162286827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162286825}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273256257
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 8091387528674807814, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8337185964954280210, guid: 2173d601ebd73b449a99a4e1b5771a58, type: 3}
       propertyPath: m_Size.x
       value: 0.72367454
@@ -848,3 +915,4 @@ SceneRoots:
   - {fileID: 1625098789}
   - {fileID: 1274917222}
   - {fileID: 615470420}
+  - {fileID: 1162286827}

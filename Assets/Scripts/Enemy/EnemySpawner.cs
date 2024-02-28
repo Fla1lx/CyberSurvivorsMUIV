@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class EnemySpawner : EnemySpawner
+public class EnemySpawner : MonoBehaviour
 {
     [System.Serializable]
     public class Wave
@@ -40,9 +40,9 @@ public class EnemySpawner : EnemySpawner
 
     void Update()
     {
-        if (currentWaveCount < Wave.Count && waves[currentWaveCount].spawnCount == 0)
+        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
         {
-            startCoroutine(BeginNextWave());
+            StartCoroutine(BeginNextWave());
         }
 
         spawnTimer += Time.deltaTime;
@@ -53,7 +53,7 @@ public class EnemySpawner : EnemySpawner
         }
     }
 
-    IEnumenator BeginNextWave()
+    IEnumerator BeginNextWave()
     {
         yield return new WaitForSeconds(waveInterval);
 

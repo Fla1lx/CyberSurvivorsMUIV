@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class NewBehaviourScript : MonoBehaviour
+public class EnemySpawner : EnemySpawner
 {
     [System.Serializable]
     public class Wave
@@ -27,6 +27,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     [Header("Spawner Attributes")]
     float spawnTimer;
+    public float waveInterval;
+    
     Transform player;
 
     void Start()
@@ -38,14 +40,31 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Update()
     {
+        if (currentWaveCount < Wave.Count && waves[currentWaveCount].spawnCount == 0)
+        {
+            startCoroutine(BeginNextWave());
+        }
+
         spawnTimer += Time.deltaTime;
         if (spawnTimer >= waves[currentWaveCount].spawnInterval)
         {
             spawnTimer = 0f;
             SpawnEnemies();
         }
+    }
+
+    IEnumenator BeginNextWave()
+    {
+        yield return new WaitForSeconds(waveInterval);
+
+        if (currentWaveCount < waves.Count - 1)
+        { 
+            currentWaveCount++;
+            CalculateWaveQuota();
+        }
 
     }
+
     void CalculateWaveQuota()
     {
         int currentWaveQuota = 0;

@@ -11,7 +11,6 @@ public class PlayerStats : MonoBehaviour
     public float currentMoveSpeed;
     public float currentMight;
     public float currentProjectileSpeed;
-
     public float currentMagnet;
 
     public List<GameObject> spawnedWeapons;

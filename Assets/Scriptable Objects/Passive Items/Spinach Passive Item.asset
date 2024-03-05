@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82a4837da3504b43a589c6b79d3a455, type: 3}
-  m_Name: KnifeCharacter
+  m_Script: {fileID: 11500000, guid: 01b8e5a741e643548af8893ff75b4a83, type: 3}
+  m_Name: Spinach Passive Item
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 5225993482253599259, guid: d913f4e06f630c24285fe596c0090d40, type: 3}
-  maxHealth: 1000
-  recovery: 1
-  moveSpeed: 5
-  might: 1
-  projectileSpeed: 5
-  magnet: 2
+  multipler: 100

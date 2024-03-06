@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Spinach Passive Item
   m_EditorClassIdentifier: 
   multipler: 100
+  level: 1
+  nextLevelPrefab: {fileID: 5693091322817573085, guid: 73fc0ce5429aaa74a89451a66204e1a7, type: 3}
+  icon: {fileID: -1098915039, guid: f6264a26b8c769840bf85c02f05a70bf, type: 3}

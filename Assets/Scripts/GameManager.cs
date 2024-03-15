@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     public enum GameState
     {
         Gameplay,
@@ -18,10 +22,19 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
+    public TextMeshProUGUI currentHealth;
+    public TextMeshProUGUI currentRecovery;
+    public TextMeshProUGUI currentMoveSpeed;
+    public TextMeshProUGUI CurrentMight;
+    public TextMeshProUGUI currentProjectileSpeed;
+    public TextMeshProUGUI currentMagnet;
 
-
-    void Awake() 
+    void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
         DisableScreens();
     }
 
@@ -45,7 +58,7 @@ public class GameManager : MonoBehaviour
                 break;
 
         }
-    
+
     }
 
     public void ChangeState(GameState newState)
@@ -55,7 +68,7 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
-        if(currentState != GameState.Paused)
+        if (currentState != GameState.Paused)
         {
 
             perviousState = currentState;
@@ -63,12 +76,12 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
             pauseScreen.SetActive(true);
         }
-        
+
     }
 
     public void ResumeGame()
     {
-        if(currentState == GameState.Paused)
+        if (currentState == GameState.Paused)
         {
             ChangeState(perviousState);
             Time.timeScale = 1f;
@@ -81,9 +94,9 @@ public class GameManager : MonoBehaviour
 
     void CheckForPauseAndResume()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(currentState == GameState.Paused)
+            if (currentState == GameState.Paused)
             {
                 ResumeGame();
             }

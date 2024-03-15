@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DropRateManager : MonoBehaviour
 {
     [System.Serializable]
@@ -11,17 +12,10 @@ public class DropRateManager : MonoBehaviour
         public GameObject itemPrefab;
         public float dropRate;
     }
-
     public List<Drops> drops;
 
     void OnDestroy()
     {
-        if(!gameObject.scene.isLoaded)
-        {
-            return;
-        }
-
-
         float randomNumber = UnityEngine.Random.Range(0f, 100f);
         List<Drops> possibleDrops = new List<Drops> ();
 

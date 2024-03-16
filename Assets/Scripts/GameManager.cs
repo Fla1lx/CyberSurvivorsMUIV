@@ -22,12 +22,15 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject pauseScreen;
+    public GameObject resultsScreen;
     public TextMeshProUGUI currentHealth;
     public TextMeshProUGUI currentRecovery;
     public TextMeshProUGUI currentMoveSpeed;
     public TextMeshProUGUI CurrentMight;
     public TextMeshProUGUI currentProjectileSpeed;
     public TextMeshProUGUI currentMagnet;
+
+    public bool isGameOver = false;
 
     void Awake()
     {
@@ -51,6 +54,12 @@ public class GameManager : MonoBehaviour
 
                 break;
             case GameState.GameOver:
+                if(!isGameOver)
+                {
+                    isGameOver = true;
+                    Time.timeScale = 0f;
+                    DisplayResults();
+                }
                 break;
 
             default:
@@ -110,6 +119,22 @@ public class GameManager : MonoBehaviour
     void DisableScreens()
     {
         pauseScreen.SetActive(false);
+        resultsScreen.SetActive(false);
+    }
+
+    public void GameOver()
+    {
+        if(!isGameOver)
+        {
+            ChangeState(GameState.GameOver);
+            DisplayResults();
+        }
+    }
+
+    void DisplayResults()
+    {
+        resultsScreen.SetActive(true);
+
     }
 
 

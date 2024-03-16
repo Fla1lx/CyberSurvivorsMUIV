@@ -226,7 +226,10 @@ public class PlayerStats : MonoBehaviour
     
     public void Kill()
     {
-        Debug.Log("Player Killed");
+        if(!GameManager.instance.isGameOver)
+        {
+            GameManager.instance.GameOver();
+        }
     }
 
     void Recover()

@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
-
     public GameObject levelUpScreen;
 
     public TextMeshProUGUI currentHealth;
@@ -36,6 +35,8 @@ public class GameManager : MonoBehaviour
 
     public bool isGameOver = false;
     public bool choosingUpgrade = false;
+
+    public GameObject playerObject;
 
     void Awake()
     {
@@ -156,13 +157,14 @@ public class GameManager : MonoBehaviour
     public void StartLevelUp()
     {
         ChangeState(GameState.LevelUp);
+        playerObject.SendMessage("RemoveAndApplyUpgrades");
     }
 
     public void EndLevelUp()
     {
         choosingUpgrade = false;
         Time.timeScale = 1f;
-        levelUpScreen.SetActive(true);
+        levelUpScreen.SetActive(false);
         ChangeState(GameState.Gameplay);
     }
 

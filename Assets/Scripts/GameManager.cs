@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
     {
         Gameplay,
         Paused,
-        GameOver
+        GameOver,
+        LevelUp
 
     }
 
@@ -23,6 +24,9 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
+
+    public GameObject levelUpScreen;
+
     public TextMeshProUGUI currentHealth;
     public TextMeshProUGUI currentRecovery;
     public TextMeshProUGUI currentMoveSpeed;
@@ -31,6 +35,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI currentMagnet;
 
     public bool isGameOver = false;
+    public bool choosingUpgrade = false;
 
     void Awake()
     {
@@ -54,11 +59,20 @@ public class GameManager : MonoBehaviour
 
                 break;
             case GameState.GameOver:
-                if(!isGameOver)
+                if (!isGameOver)
                 {
                     isGameOver = true;
                     Time.timeScale = 0f;
                     DisplayResults();
+                }
+                break;
+            
+            case GameState.LevelUp:
+                if(!choosingUpgrade)
+                {
+                    choosingUpgrade = true;
+                    Time.timeScale = 0f;
+                    levelUpScreen.SetActive(true);
                 }
                 break;
 
@@ -120,11 +134,12 @@ public class GameManager : MonoBehaviour
     {
         pauseScreen.SetActive(false);
         resultsScreen.SetActive(false);
+        levelUpScreen.SetActive(false);
     }
 
     public void GameOver()
     {
-        if(!isGameOver)
+        if (!isGameOver)
         {
             ChangeState(GameState.GameOver);
             DisplayResults();
@@ -135,6 +150,20 @@ public class GameManager : MonoBehaviour
     {
         resultsScreen.SetActive(true);
 
+    }
+
+
+    public void StartLevelUp()
+    {
+        ChangeState(GameState.LevelUp);
+    }
+
+    public void EndLevelUp()
+    {
+        choosingUpgrade = false;
+        Time.timeScale = 1f;
+        levelUpScreen.SetActive(true);
+        ChangeState(GameState.Gameplay);
     }
 
 

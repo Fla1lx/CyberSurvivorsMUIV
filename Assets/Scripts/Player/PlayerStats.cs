@@ -128,7 +128,7 @@ public class PlayerStats : MonoBehaviour
     [Header("Experience/Level")]
     public int experience = 0;
     public int level = 1;
-    public int experienceCap = 100;
+    public int experienceCap = 10;
     public int experienceCapIncrease;
 
 
@@ -192,6 +192,8 @@ public class PlayerStats : MonoBehaviour
             level++;
             experience -= experienceCap;
             experienceCap += experienceCapIncrease;
+
+            GameManager.instance.StartLevelUp();
         }
     }
 

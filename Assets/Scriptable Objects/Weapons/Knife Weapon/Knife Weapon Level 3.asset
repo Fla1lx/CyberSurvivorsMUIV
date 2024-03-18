@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c8506d97194b754c92a0e41bd121e71, type: 3}
-  m_Name: Knife Weapon
+  m_Name: Knife Weapon Level 3
   m_EditorClassIdentifier: 
-  prefab: {fileID: 333631464683258833, guid: 811b6a15e844a474fa69e349e43e3f67, type: 3}
-  damage: 5
-  speed: 10
-  cooldownDuration: 1
+  prefab: {fileID: 333631464683258833, guid: 191227e331a2ad14885852cfabcb9adc, type: 3}
+  damage: 7
+  speed: 15
+  cooldownDuration: 0.75
   pierce: 1
-  level: 1
-  nextLevelPrefab: {fileID: 5225993482253599259, guid: c87c709229ed0f746b6ece2fb9cc5675, type: 3}
-  name: Knife
-  description: shoots knives in the direction
+  level: 3
+  nextLevelPrefab: {fileID: 5225993482253599259, guid: e626feec9afb0da418031e4ad319a429, type: 3}
+  name: Knife Level 3
+  description: speed increased by 5
   icon: {fileID: 21300000, guid: a4b2f054c5cdda143a5089c245e10b5d, type: 3}

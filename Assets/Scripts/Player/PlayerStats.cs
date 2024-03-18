@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -141,8 +143,18 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
-    public GameObject secondWeaponTest;
-    public GameObject firstPassiveItemTest, secondPassiveItemTest;
+
+    [Header("UI")]
+    public Image healthBar;
+    public Image expBar;
+    public TextMeshProUGUI levelText;
+
+    void Start()
+    {
+        UpdateHealthBar();
+        UpdateExpBar();
+        UpdateLevelText();
+    }
 
     void Awake()
     {
@@ -179,6 +191,8 @@ public class PlayerStats : MonoBehaviour
     {
         experience += amount;
 
+        UpdateExpBar();
+
         LevelUpChecker();
     }
     
@@ -189,9 +203,21 @@ public class PlayerStats : MonoBehaviour
             level++;
             experience -= experienceCap;
             experienceCap += experienceCapIncrease;
-
+            UpdateLevelText();
             GameManager.instance.StartLevelUp();
         }
+    }
+
+    void UpdateExpBar()
+    {
+        expBar.fillAmount = (float)experience / experienceCap;
+
+    }
+
+    void UpdateLevelText()
+    {
+        levelText.text = "LV" + level.ToString();
+
     }
 
     public void TakeDamage(float dmg)
@@ -207,7 +233,14 @@ public class PlayerStats : MonoBehaviour
             {
                 Kill();
             }
+
+            UpdateHealthBar();
         }
+    }
+
+    void UpdateHealthBar()
+    {
+        healthBar.fillAmount = currentHealth / characterData.MaxHealth;
     }
 
     public void RestoreHealth(float amount)
